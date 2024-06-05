@@ -63,17 +63,17 @@ export default function HomeStats() {
       <div className="tiles-grid">
         <div className="tile">
           <h3 className="tile-header">Bugün</h3>
-          <div className="tile-number">$ {ordersTotal(ordersToday)}</div>
+          <div className="tile-number"> {ordersTotal(ordersToday)} TL</div>
           <div className="tile-desc"> bugün siparişler {ordersToday.length}</div>
         </div>
         <div className="tile">
           <h3 className="tile-header">Bu hafta</h3>
-          <div className="tile-number">$ {ordersTotal(ordersWeek)}</div>
+          <div className="tile-number"> {ordersTotal(ordersWeek)} TL</div>
           <div className="tile-desc"> bu haftaki siparişler {ordersWeek.length}</div>
         </div>
         <div className="tile">
           <h3 className="tile-header">Bu ay</h3>
-          <div className="tile-number">$ {ordersTotal(ordersMonth)}</div>
+          <div className="tile-number"> {ordersTotal(ordersMonth)} TL</div>
           <div className="tile-desc"> bu ayki siparişler {ordersMonth.length} </div>
         </div>
       </div>
